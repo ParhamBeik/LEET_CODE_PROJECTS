@@ -1,11 +1,9 @@
 arr = [40,10,20,30]
 listOfIndex=[]
 sortedArr=sorted(arr)
-[listOfIndex.append(arr.index(number)) for number in arr]
-newList=[]
+[listOfIndex.append(sortedArr.index(number)) for number in arr]
+newList=[index+1 for index in listOfIndex]
 
-for number in sortedArr:
-    newList.append(arr.index(number)+1)
 
 print(newList)
 
