@@ -1,4 +1,4 @@
-arr = [40,10,20,30]
+arr = [37,12,28,9,100,56,80,5,12]
 listOfIndex=[]
 sortedArr=sorted(arr)
 [listOfIndex.append(sortedArr.index(number)) for number in arr]
