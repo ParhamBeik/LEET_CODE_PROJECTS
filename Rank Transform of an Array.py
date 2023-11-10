@@ -7,6 +7,6 @@ listOfRanksSimilar=[]
 for number in listOfIndex:
     if number>listOfRanksSimilar[0]:
         listOfIndex[listOfIndex.index(number)]=number-1
-print(listOfRanksSimilar)
+
 print(listOfIndex)
 
